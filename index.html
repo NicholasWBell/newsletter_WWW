@@ -5,12 +5,70 @@
     <title>Walk With Women Newsletter</title>
     <style>
       body {
+        font-family: sans-serif;
         background: black;
         margin: 0;
         padding: 0;
+        
       }
       .container {
         background: white;
+      }
+      .logo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #7029EC;
+        line-height: .8;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 25px 40px;
+      }
+      .logo_detail {
+        font-size: 25px;
+      }
+      .donate_now {
+        display: inline-block;
+        background: #FF52BA;
+        color: white;
+        padding: 12px 25px;
+        font-size: 18px;
+        text-decoration: none;
+        margin-right: 40px;
+      }
+      .month {
+        display: inline-block;
+        background: #00AB9F;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 6px 40px 6px 6px;
+      }
+      .article_container {
+        padding: 0 50px;
+      }
+      .article_img {
+        width: 500px;
+      }
+      .article_header {
+        color: #7029EC;
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .article_text {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .article_link {
+        color: #7029EC;
+        font-weight: 600;
+      }
+      .article_CTA {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #7029EC;
+        color: white;
+        font-size: 18px;
+        padding: 10px 50px;
+        margin: 15px 0 25px;
       }
     </style>
   </head>
@@ -19,9 +77,48 @@
       <tr>
         <td class="container">
           <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <!-- header row -->
             <tr>
               <td>
-                Hello World
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td class="logo">
+                      <span class="logo_detail">W</span>ALKING<br><span class="logo_detail">W</span>ITH<br><span class="logo_detail">W</span>OMEN
+                    </td>
+                    <td align="right">
+                      <a class="donate_now" href="#!">DONATE NOW</a>
+                    </td>
+                  </tr>
+                </table>
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td class="month">MAY NEWSLETTER</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- brunch row -->
+            <tr>
+              <td>
+                <table class="article_container" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td align="center">
+                      <img class="article_img" src="img/brunch.jpg" alt="Women eating brunch">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="article_header">It starts with Mom Brunch Party!</p>
+                      <p class="article_text">Motherhood is hard. Having a healthy pregnancy shouldn't be. While moms are strong and resilient, they need support throughout their pregnancies, and we're here to help. This Mother's Day, turn your celebrations into a fundraiser to honor a mom in your life and help Walking With Women ensure that parents have the tools they need to get the best possible start.</p>
+                      <p class="article_text">Brunch with us and make an impact for moms and babies! help over six million moms-to-be get the care and support they need by planning a do-it-yourself brunch party. <a class="article_link" href="#!">Host an event with your loved ones to provide much-needed funds to fight for the health of families everywhere.>></a></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <a class="article_CTA" href="#!">CELEBRATE</a>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
